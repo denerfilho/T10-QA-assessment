@@ -137,7 +137,7 @@ describe("Login", () => {
 
    });
     
-   it.only("CT 10 - Funcionalidade do checkbox 'Remember me'", () => {
+   it("CT 10 - Funcionalidade do checkbox 'Remember me'", () => {
     //clicar e digitar usuario
     cy.get("#field-1-label").type("user@t10.digital");
 

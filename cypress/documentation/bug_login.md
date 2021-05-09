@@ -12,3 +12,5 @@ Descrição: Ao acessar a página de login (http://localhost:3000/login), o usu�
 Obs: Portanto, o teste “CT 10 - Funcionalidade do checkbox ‘Remember me’”, irá falhar, pois buscará o cache de email e não encontrará!
 
 
+
+

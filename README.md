@@ -1,63 +1,7 @@
-# Quality Assurance Engineer
+Conforme combinamos, segue a case para sua avaliação.
 
-O objetivo deste teste é avaliar seu domínio da área de Qualidade.
+Para encontrar os arquivos de teste, siga o caminho dentro do projeto: “qa-assessment-main > cypress > integration”. Lá estarão os 3 arquivos .spec.js: testsPaginaForgot,testsPaginaLogin e testsResetPassword.
 
-## Projeto
+Seguindo o caminho dentrodo projeto: “qa-assessment-main > cypress > documentation, encontrará 4 arquivos .md: bug_login, cenarios_forgot_password,cenarios_login e cenarios_Reset_Password.OBS: 
 
-Neste projeto você encontrará 3 telas.
-
-1. Login (/login)
-2. Esqueci minha senha (/forgot-password)
-3. Recuperar minha senha (/reset-password/:user-id) Ex: `/reset-password/user@t10.digital`
-
-Para cumprir os objetivos do desafio você deve:
-
-1. Escrever os casos de teste para cada tela.
-2. Escrever automações para cada caso de teste.
-3. Report de bugs ou comportamento não esperado, se houver.
-
-Para escrever as automações utilize algum framework ou biblioteca JavaScript como Cypress. Não crie um repositório separado para os testes, faça numa pasta separada dentro deste projeto. Para cada arquivo de cenários utilize um padrão como `cenarios_login.md`.
-
-Caso encontre alguma incosistência ou comportamento não esperado, por favor coloque o report dos mesmos dentro do seu projeto como `bug_login.md`. 
-
-Ao finalizar, envie o link do seu repositório para diogo@t10.digital.
-
-#### Observações
-
-Utilize o usuário abaixo para realizar seus testes:
-
-```json
-{
-  "username": "user@t10.digital",
-  "password": "12345678"
-}
-```
-
-### Rodando o projeto
-
-Para rodar o projeto instale as dependências com:
-
-```
-yarn install
-```
-
-ou
-
-```
-npm install
-```
-
-Depois faça:
-
-```
-yarn start
-```
-
-ou
-
-```
-npm start
-```
-
-Para rodar. Visite o arquivo `package.json` para mais informações.
-
+Para realização do teste 10 (Funcionalidade do checkbox'Remember me’) da página "cenarios_Reset_Password", foi detectado que o mesmo não está funcionando como deveria. Logo o teste 10 irá falhar, pois buscará por elementos que deveriam estar no DOM, porém não estão. Esta, e mais outra falha grave de segurança foram reportados arquivo bug_login.md

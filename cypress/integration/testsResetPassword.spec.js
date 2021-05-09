@@ -165,7 +165,7 @@ describe("Reset Password", () => {
         // digitar “New password”
         cy.get("#field-1-label").type("12345678");
         
-        // digitar "Confirm password"
+        // digitar "Confirm password"  ..
         cy.get("#field-2-label").type("12345678");
 
         // clicar 1º Botão para exibir New password 

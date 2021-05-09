@@ -1,4 +1,4 @@
-CRITÉRIOS:
+# CENARIOS DE TESTE RESET PASSWORD:
 
 #### CT 01 - Exibir informações de página de reset password 
 Objetivo: 
